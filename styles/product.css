@@ -1,0 +1,111 @@
+#wal{
+    display: grid;
+    grid-template-columns: repeat(4,22%);
+    gap:1%;
+    text-align: center;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    justify-content: center;
+}
+#wal>div>img{
+    width: 100%;
+    height: 60%;
+    border-radius: 8px;
+    background: rgb(223, 223, 223);
+}
+#wal>div{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(240, 240, 240);
+    height: 590px;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: left; 
+    cursor: pointer;
+    
+}
+#marg{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#div2>div:nth-child(1){
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Mier bold";
+}
+#div2>div:nth-child(2){
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier book";
+    text-decoration: line-through;
+    margin-left: 15px;
+}
+#div2>div:nth-child(3){
+    color: rgb(3, 141, 99);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier demi";
+    margin-left: 15px;
+}
+
+#wal>div>div{
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding-left: 20px;
+}
+#div2>div{
+    display: inline;
+    vertical-align: middle;
+}
+#div3>div{
+    display: inline;
+    vertical-align: middle;
+}
+#div3>div:nth-child(1){
+    height: 16px;
+    width: 16px;
+}
+#div3>div:nth-child(2){
+    color: rgb(102, 102, 102);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: "Mier book";
+    font-size: 16px;
+    margin-left: 7px;
+}
+#div4{
+    color: rgb(102, 102, 102);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Mier demi";
+    text-align: left;
+}
+#div5>div{
+display: inline;
+vertical-align: middle;
+}
+#div5>div:nth-child(1){
+    color: rgb(85, 133, 248);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier demi";
+}
+#divstar>svg{
+    margin-left: 8px;
+    height: 10px;
+    width: 10px;
+}
