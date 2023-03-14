@@ -1,10 +1,13 @@
 {
+  "homepage": "http://Santosh-Konappanavar.github.io/meesho.com",
   "name": "surya",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon src/server"
+    "server": "nodemon src/server",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +17,8 @@
     "ejs": "^3.1.6",
     "express": "^4.17.2",
     "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
